@@ -71,7 +71,7 @@ class ServerEmbed {
 			self.isSpriteSheetLoaded = true;
 			setInterval(() => self.redraw(), 50);
 		});
-		this.spriteSheet.src = "/assets/icons.png";
+		this.spriteSheet.src = "https://ismaeldevyt.github.io/fireclientstudios/assets/icons.png";
 		this.socket = null;
 		this.connected = false;
 		this.dirty = false;
